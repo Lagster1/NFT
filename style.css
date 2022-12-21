@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Montserrat&family=Poppins:wght@700&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+
+body{
+    /* шрифт */
+    background-color: #450774;
+    color: #fff;
+    
+}
+
+.container{
+    max-width: 1590px;
+    margin: 0 auto;
+    padding: 0 30px;
+    position: relative;
+}
+
+ .header{
+    padding-top: 40px;
+    
+
+ }
+
+ .header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 57px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Inter';
+ }
+
+ .logo{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    padding-right:13px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    margin-right:407px;
+ }
+
+ .logo::after{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 14px;
+    border-radius: 36px;
+    background: #F7A761;
+    position: absolute;
+    bottom:7px;
+    right:0;
+
+    
+ }
+
+
+ .nav{
+    margin:0 auto;
+
+ }
+
+ .nav-list{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+ }
+
+ .nav-item + .nav-item{
+    margin-left:48px;
+ }
+
+.nav-link{
+    transition: all .1s;
+    color: #BDBDBD;
+}
+
+.nav-link:hover{
+    color:#9A1AE9;
+}
+
+.list{
+    display: flex;
+    margin-left:285px;
+}
+
+.list-item{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.list_link{
+    width: 107px;
+    height: 56px;
+    padding: 16px 24px;
+    border-radius: 10px;
+    font-weight: 700;
+    color: #BDBDBD;
+    transition: all .2s;
+}
+
+.list_link:hover{
+    background: #250539;
+    color:#fff;
+
+}
+
+.title{
+    width: 833px;
+    height: 305px;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight:700;
+    font-style: normal;
+    font-size: 80px;
+    line-height: 120%;
+    text-transform: capitalize;
+    margin: 164px 0 20px 0;
+    position: relative;
+}
+
+.gap{
+    display: inline-block;
+    width: 123px;
+    height: 1px;
+}
+
+.popup-bg{
+    position: absolute;
+    left:42%;
+    width: 123px;
+    height: 110px;
+    transform: translateY(-15px); 
+    background:url(../img/popup-play.svg) 95% 5% no-repeat, url(../img/popup-bg.svg) center no-repeat;
+    background-color: #FFA2C0;
+    border-radius: 15px;
+}
+
+.title-descr{
+    width: 747px;
+    height: 54px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    color: #FFFFFF;
+    margin-bottom: 70px;
+}
+
+.nft{
+    min-width:904px;
+    min-height: 904px;
+    background:url(/img/nft-users.svg) 91% 55%/26% no-repeat, url(/img/elem-bg.svg) 90% no-repeat;
+    z-index: -1;
+    position: absolute;
+    top:-90px;
+    left:47%;
+}
+
+.elem{
+    position: absolute;
+    left:22%;
+    top:4%;
+}
+
+.nft-box{
+    position: absolute;
+    bottom:10%;
+    left:5%;
+}
+
+.nft-bottom{
+    display: flex;
+    align-items: center;
+    margin-bottom:160px;
+}
+
+.btn-explore{
+    width: 200px;
+    height: 56px;
+    background: #9A1AE9;
+    border-radius: 5px;
+    padding: 16px 24px;
+    margin-right:40px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 24px;
+    font-size: 16px;
+    font-family: 'Inter';
+    color: #FFFFFF;
+
+}
+
+.nft-bottom a{
+    display: inline-block;
+    width: 89px;
+    height: 24px;
+    font-family: 'Inter', san-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F7A761;
+    position: relative;
+}
+
+.nft-bottom a::after{
+    position: absolute;
+    top:50%;
+    transform: translateY(-5px) translateX(28px);
+    right:0;
+    display: inline-block;
+    width: 21px;
+    height: 10px;
+    content: "";
+    background: url(/img/arrow-create-nft.svg) no-repeat;
+}
+
+
+.header-bottom{
+    width:1740px;
+    height:204px;
+    background: url(/img/linia.svg) no-repeat;
+    margin: 0 auto;
+}
+
+.header_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 91px;
+    padding-bottom: 65px;
+}
+
+.trend-cards{
+    margin-top:124px;
+    height: 738px;
+}
+
+.trend-text{
+    width:641px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom:70px;
+}
+
+.text-title{
+    font-family: 'Work Sans', san-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color:#fff;
+    margin-bottom: 1px;
+}
+
+.text-descr{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color:#fff;
+    
+}
+
+.trend-content{
+    margin-top:70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width:360px;
+    height:430px;
+    background-color: #420470;
+    border-radius:20px;
+    overflow: hidden;
+    transition: all 300ms ease-in .1s;
+
+}
+
+.card img{
+    width:400px;
+    height:261px;
+    padding: 20px 20px 15px 20px;
+    border-radius: 40px;
+}
+
+.card-text{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+
+}
+
+.card-a{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #7912B9;
+    padding:0;
+}
+
+.card-descr{
+    height: 128px;    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    gap:32px 170px;
+    padding:0 20px;
+    margin-bottom:43px;
+    position: relative;
+}
+
+.menu{
+    position: absolute;
+    top:6px;
+    right:30px;
+}
+
+.price{
+    position: absolute;
+    bottom:0;
+    left:0;
+    transform: translateX(25%);
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #FFE953;
+}
+.card-elem{
+    width:50px;
+    height: 50px;
+    background-color: rgba(37, 5, 57, 0.3);
+    padding: 8px 15px;
+    border-radius: 10px;
+    position: absolute;
+    bottom:0;
+    right:0;
+    transform: translateX(-30%);
+}
+
+.card + .card{
+    margin-left:27px;
+}
+
+.btn-collect{
+    display: block;
+    text-align: center;
+    width:200px;
+    height: 56px;
+    margin: 0 auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border-radius:35px;
+    background-color: #9A1AE9;
+    padding: 16px 24px;
+    transition: all 0.1s;
+}
+
+.btn-collect:hover{
+    cursor: pointer;
+    background-color:rgba(154, 26, 233, 0.8);
+    color:#fff;
+}
+
+.card:hover{
+    height: 520px;
+}
+
+.create-nft{
+    margin: 130px auto 0 auto;
+    max-width:1450px;
+    height: 515px;
+}
+
+.create-descr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.create-text{
+    width:763px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom:34px;
+}
+
+.create-descr-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 335px;
+    height: 393px;
+    text-align: center;  
+    position: relative; 
+}
+
+.create-descr-text:hover>.create-bg{
+    border-radius:50%;
+    box-shadow: 1px 1px 100px 7px rgba(255,218,0, 0.3);
+}
+
+.create-descr-text+.create-descr-text{
+    border-left: 2px solid #2D054A;
+    border-image: linear-gradient(#450774,#2D054A,#450774);
+    border-image-slice: 1;
+}
+
+.create-bg{
+    position: absolute;
+    z-index: -1;
+    top:17%;
+        
+}
+
+.create-descr-text h3,
+.create-descr-text p{
+
+    display: inline-block;
+    transform: translateY(60px);
+}
+
+.create-descr-text h3{
+    width: 194px;
+    height: 23px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+}
+
+.create-descr-text p{
+    margin-top: 20px;
+    width: 279px;
+    height: 120px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #F6EBFD;
+    
+}
